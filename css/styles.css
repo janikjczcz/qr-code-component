@@ -1,17 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
 :root {
   --color-bg: hsl(212, 45%, 89%);
   --color-white: hsl(0, 0%, 100%);
   --color-primary: hsl(218, 44%, 22%);
   --color-secondary: hsl(216, 15%, 48%);
+  --font-outfit: "Outfit", serif;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Outfit", serif;
 }
 
 main {
@@ -53,6 +53,12 @@ main {
   padding: 0 1rem;
   text-align: center;
 }
+
+.qr-frame__heading,
+.qr-frame__description {
+  font-family: var(--font-outfit);
+}
+
 .qr-frame__heading {
   font-size: 1.375rem;
   font-weight: 700;
